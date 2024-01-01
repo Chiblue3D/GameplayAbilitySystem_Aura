@@ -1,0 +1,1699 @@
+
+s601h@SHDesktop MINGW64 ~
+$ cd /d/Udemy/Aura
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura
+$ git init
+Initialized empty Git repository in D:/Udemy/Aura/.git/
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        Aura.uproject
+        Config/
+        Content/
+        Platforms/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (master)
+$ git add .
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Aura.uproject
+        new file:   Config/DefaultEditor.ini
+        new file:   Config/DefaultEngine.ini
+        new file:   Config/DefaultGame.ini
+        new file:   Config/DefaultInput.ini
+        new file:   Content/Assets/Characters/Aura/Animations/Abilities/Cast_ArcaneShards.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Abilities/Cast_ArcaneShards_Short.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Abilities/Cast_FireBolt.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Abilities/Cast_Shock.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Abilities/Cast_Shock_Loop.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Abilities/HitReact.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Abilities/Stun.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/AuraPose.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Idle.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/IdleWalkRun.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/InAir.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Run.uasset
+        new file:   Content/Assets/Characters/Aura/Animations/Walk.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_ArmGuard_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_ArmGuard_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_ArmGuard_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Belt_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Belt_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Belt_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Body_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Body_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Body_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Eyes_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Eyes_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Eyes_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Hair_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Hair_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Hair_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Tunic_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Tunic_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/Character_low_Tunic_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/M_ArmGuard.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/M_Belt.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/M_Body.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/M_Eyes.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/M_Hair.uasset
+        new file:   Content/Assets/Characters/Aura/Materials/M_Tunic.uasset
+        new file:   Content/Assets/Characters/Aura/PA_Aura.uasset
+        new file:   Content/Assets/Characters/Aura/SKM_Aura.uasset
+        new file:   Content/Assets/Characters/Aura/SK_Aura.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/M_Floaty.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/M_Staff.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_Emissive.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_BaseColor.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_Emissive.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_Normal.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/PA_Staff.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/SKM_Staff.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/SK_Staff.uasset
+        new file:   Content/Assets/Characters/Aura/Staff/SM_Staff.uasset
+        new file:   Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Emissive.uasset
+        new file:   Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Beacon/Material/MI_Beacon.uasset
+        new file:   Content/Assets/Dungeon/Beacon/Material/M_Beacon.uasset
+        new file:   Content/Assets/Dungeon/Beacon/SM_Beacon.uasset
+        new file:   Content/Assets/Dungeon/Beacon/SM_Pillar.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/Checkpoint_low.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Emissive.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/Material/MI_Checkpoint.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/Material/M_Checkpoint.uasset
+        new file:   Content/Assets/Dungeon/Checkpoint/SM_Checkpoint.uasset
+        new file:   Content/Assets/Dungeon/Materials/CornerSmall/M_CornerSmall.uasset
+        new file:   Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_Base.uasset
+        new file:   Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_Norm.uasset
+        new file:   Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/M_Stairs_ColumnsRims.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Pillars.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Rail.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Steps.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/columns_rims_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/columns_rims_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/columns_rims_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/pillars_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/pillars_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/pillars_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/rail_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/rail_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/rail_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/steps_wall_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/steps_wall_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Stairs/steps_wall_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1/M_Tileset1.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/M_Tilese1x1_2.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/M_Tileset1x1_1.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset2/M_Tileset2.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset3/M_Tileset3.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Balusters.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Base.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Rail.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Step.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Wall.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Balusters_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Balusters_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Balusters_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Base_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Base_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Base_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Rail_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Rail_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Rail_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Step_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Step_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Step_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Wall_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Wall_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Wall_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Balusters.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Base.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Rail.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Step.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Wall.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_base_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_base_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_base_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Balusters.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Base.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Rail.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Step.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Wall.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_balusters_dark.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_base_dark.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_rail_dark.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_step_dark.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_wall_dark.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_base_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_base_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_base_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_step_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_step_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_step_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_wall_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_wall_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_wall_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Balusters_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Balusters_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Balusters_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Rail_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Rail_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Rail_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_balusters.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_base.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_rail.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_step.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_wall.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_BaseColor.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_Normal.uasset
+        new file:   Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Dungeon/SM_Block2x2x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Block2x3x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Block3x3x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Block4x3x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Block4x4x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Block_1x1x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Block_1x1x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Block_1x1x3.uasset
+        new file:   Content/Assets/Dungeon/SM_Block_1x1x4.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner.uasset
+        new file:   Content/Assets/Dungeon/SM_CornerInner_norail.uasset
+        new file:   Content/Assets/Dungeon/SM_CornerSmall.uasset
+        new file:   Content/Assets/Dungeon/SM_CornerSmall_nostep.uasset
+        new file:   Content/Assets/Dungeon/SM_CornerSmall_nostep_norail.uasset
+        new file:   Content/Assets/Dungeon/SM_CornerSmall_outer.uasset
+        new file:   Content/Assets/Dungeon/SM_CornerSmall_rail.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner_Inner.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner_Inner_nobase.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner_Outer_norail.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner_nobase.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner_railing.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner_wall_short.uasset
+        new file:   Content/Assets/Dungeon/SM_Corner_wall_tall.uasset
+        new file:   Content/Assets/Dungeon/SM_Edge_2x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Edge_2x2.uasset
+        new file:   Content/Assets/Dungeon/SM_FloorCorner.uasset
+        new file:   Content/Assets/Dungeon/SM_Stairs.uasset
+        new file:   Content/Assets/Dungeon/SM_Stairs_L.uasset
+        new file:   Content/Assets/Dungeon/SM_Stairs_R.uasset
+        new file:   Content/Assets/Dungeon/SM_Stairs_nobottom.uasset
+        new file:   Content/Assets/Dungeon/SM_Stairs_nobottom_L.uasset
+        new file:   Content/Assets/Dungeon/SM_Stairs_nobottom_R.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile1x1_A.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile1x1_B.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_1x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_1x3.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_1x3a.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_1x4.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_1x4_a.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_1x6.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_2x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_2x2x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_2x4.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_3x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_3x2x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_3x3_A.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_3x3_B.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_3x3x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_3x3x3.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_4x4.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_4x4_a.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_5x5.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_6x3.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_6x6.uasset
+        new file:   Content/Assets/Dungeon/SM_Tile_6x9.uasset
+        new file:   Content/Assets/Dungeon/SM_TilesetEdge.uasset
+        new file:   Content/Assets/Dungeon/SM_TilesetEdge_nobase.uasset
+        new file:   Content/Assets/Dungeon/SM_TilesetEdge_nobase_2.uasset
+        new file:   Content/Assets/Dungeon/SM_TilesetEdge_nobase_4.uasset
+        new file:   Content/Assets/Dungeon/SM_Wall_2x1.uasset
+        new file:   Content/Assets/Dungeon/SM_Wall_2x2.uasset
+        new file:   Content/Assets/Dungeon/SM_Wall_4x2.uasset
+        new file:   Content/Assets/Effects/ArcaneShards/NS_ArcaneShards.uasset
+        new file:   Content/Assets/Effects/Combat/NS_BloodImpact.uasset
+        new file:   Content/Assets/Effects/Combat/NS_CombatImpact.uasset
+        new file:   Content/Assets/Effects/Combat/NS_GroundSummon.uasset
+        new file:   Content/Assets/Effects/Combat/NS_SlingshotImpact.uasset
+        new file:   Content/Assets/Effects/Combat/Trail/Materials/MI_Refraction.uasset
+        new file:   Content/Assets/Effects/Combat/Trail/Materials/M_Refraction.uasset
+        new file:   Content/Assets/Effects/Combat/Trail/NE_Refract.uasset
+        new file:   Content/Assets/Effects/Combat/Trail/NS_CombatTrail.uasset
+        new file:   Content/Assets/Effects/Cursor/FX_Cursor.uasset
+        new file:   Content/Assets/Effects/Cursor/M_Cursor.uasset
+        new file:   Content/Assets/Effects/Cursor/SM_CursorMesh.uasset
+        new file:   Content/Assets/Effects/Cursor/T_Arrow.uasset
+        new file:   Content/Assets/Effects/Cursor/T_Crystal.uasset
+        new file:   Content/Assets/Effects/Cursor/T_Crystal2.uasset
+        new file:   Content/Assets/Effects/Cursor/T_Crystal3.uasset
+        new file:   Content/Assets/Effects/Cursor/T_Crystal4.uasset
+        new file:   Content/Assets/Effects/Fire/MI_Fire.uasset
+        new file:   Content/Assets/Effects/Fire/M_Distortion.uasset
+        new file:   Content/Assets/Effects/Fire/M_Distortion2.uasset
+        new file:   Content/Assets/Effects/Fire/M_Fire.uasset
+        new file:   Content/Assets/Effects/Fire/NS_Fire.uasset
+        new file:   Content/Assets/Effects/Firenado/Gradient_Radial_trans.uasset
+        new file:   Content/Assets/Effects/Firenado/LowResBlurredNoise.uasset
+        new file:   Content/Assets/Effects/Firenado/M_Swirl.uasset
+        new file:   Content/Assets/Effects/Firenado/M_radial_ramp.uasset
+        new file:   Content/Assets/Effects/Firenado/M_smoke_subUV.uasset
+        new file:   Content/Assets/Effects/Firenado/NS_Tornado.uasset
+        new file:   Content/Assets/Effects/Firenado/OffsetNoiseDistanceFields_ForNormals.uasset
+        new file:   Content/Assets/Effects/Firenado/SM_Tornado.uasset
+        new file:   Content/Assets/Effects/Firenado/T_Smoke_SubUV.uasset
+        new file:   Content/Assets/Effects/Firenado/T_Smoke_SubUV_2.uasset
+        new file:   Content/Assets/Effects/Firenado/T_Smoke_Tiled_D.uasset
+        new file:   Content/Assets/Effects/Firenado/T_Smoke_Tiled_D_2.uasset
+        new file:   Content/Assets/Effects/Firenado/Tornado.uasset
+        new file:   Content/Assets/Effects/LevelUp/Materials/M_PanningNoise.uasset
+        new file:   Content/Assets/Effects/LevelUp/Materials/OffsetNoiseDistanceFields_ForNormals.uasset
+        new file:   Content/Assets/Effects/LevelUp/NS_LevelUp.uasset
+        new file:   Content/Assets/Effects/ManaDrain/M_ManaDrain.uasset
+        new file:   Content/Assets/Effects/ManaDrain/NS_ManaDrain.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/Materials/M_Fire.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/Materials/M_Fireball.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/Materials/Textures/Noise_blur_1.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/Materials/Textures/Noise_cell_1.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_1.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_2.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_3.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_4.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireBolt/NS_Fireball.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireExplosion/M_ExplosionSphere.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireExplosion/M_ExplosionSphere1.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion.uasset
+        new file:   Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion1.uasset
+        new file:   Content/Assets/Effects/Shared/M_Crescent.uasset
+        new file:   Content/Assets/Effects/Shared/M_DefaultSprite.uasset
+        new file:   Content/Assets/Effects/Shared/M_DefaultSprite_trans.uasset
+        new file:   Content/Assets/Effects/Shared/M_Ring.uasset
+        new file:   Content/Assets/Effects/Shared/M_Spark.uasset
+        new file:   Content/Assets/Effects/Shared/Sphere.uasset
+        new file:   Content/Assets/Effects/Shared/noise_blur_min.uasset
+        new file:   Content/Assets/Effects/Shared/sparkle_01.uasset
+        new file:   Content/Assets/Effects/Shared/water_n.uasset
+        new file:   Content/Assets/Effects/Shock/Material/DefaultSpriteMaterial_Trans.uasset
+        new file:   Content/Assets/Effects/Shock/Material/M_ElectricRibbon_Add.uasset
+        new file:   Content/Assets/Effects/Shock/Material/M_ElectricRibbon_Trans.uasset
+        new file:   Content/Assets/Effects/Shock/Material/T_Noise01.uasset
+        new file:   Content/Assets/Effects/Shock/NS_ElectricBeam.uasset
+        new file:   Content/Assets/Effects/Shock/NS_Sparks.uasset
+        new file:   Content/Assets/Effects/Soul/M_SoulGlow.uasset
+        new file:   Content/Assets/Effects/Soul/NS_Embers.uasset
+        new file:   Content/Assets/Effects/Soul/NS_Glow.uasset
+        new file:   Content/Assets/Effects/Soul/NS_Soul.uasset
+        new file:   Content/Assets/Effects/Soul/NS_SoulPickup.uasset
+        new file:   Content/Assets/Effects/Stun/M_Star.uasset
+        new file:   Content/Assets/Effects/Stun/NS_Halo.uasset
+        new file:   Content/Assets/Effects/Stun/NS_LifeSiphon.uasset
+        new file:   Content/Assets/Effects/Stun/NS_ManaSiphon.uasset
+        new file:   Content/Assets/Effects/Stun/NS_Stars.uasset
+        new file:   Content/Assets/Effects/Stun/star.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/BS_Demon_IdleRun.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/DemonShockLoop.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Attack_L.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Attack_R.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_HitReact.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Red_Idle.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Red_Run.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Red_Tailspin.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Stun.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Tailspin_left.uasset
+        new file:   Content/Assets/Enemies/Demon/Animations/Demon_Throw.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_Normal.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Dark/MI_DemonDark_Dissolve.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Dark/M_DemonDark.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Dark/M_DemonDark_Dissolve.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_Normal.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Red/MI_Demon_Red_Dissolve.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Red/M_DemonRed_Dissolve.uasset
+        new file:   Content/Assets/Enemies/Demon/Materials_Red/M_Demon_Red.uasset
+        new file:   Content/Assets/Enemies/Demon/PA_Demon.uasset
+        new file:   Content/Assets/Enemies/Demon/SKM_Demon.uasset
+        new file:   Content/Assets/Enemies/Demon/SK_Demon.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/Attack_L.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/Attack_R.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/Death.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/HitReact.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/Idle.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/ShockLoop.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/Stun.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Animations/Walk.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Materials/Ghoul_low_M_Ghoul_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Materials/Ghoul_low_M_Ghoul_Normal.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Materials/Ghoul_low_M_Ghoul_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Ghoul/Materials/M_Ghoul.uasset
+        new file:   Content/Assets/Enemies/Ghoul/PA_Ghoul.uasset
+        new file:   Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset
+        new file:   Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Slingshot/Attack_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Slingshot/BS_Goblin_Slingshot_IdleRun.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Slingshot/Death_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Slingshot/HitReact_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Slingshot/Idle_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Slingshot/Slingshot_Stun_Loop.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/Attack_Spear.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/BS_GoblinSpear_IdleRun.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/Death_Spear.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/HitReact_Shock_Loop_Spear.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/HitReact_Spear.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/Idle_Spear2.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/Run_Spear2.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/Run_Spear_fix.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/ShockLoop.uasset
+        new file:   Content/Assets/Enemies/Goblin/Animations/Spear/Stun_Loop.uasset
+        new file:   Content/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_Normal.uasset
+        new file:   Content/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Goblin/Materials/MI_GoblinDissolve.uasset
+        new file:   Content/Assets/Enemies/Goblin/Materials/M_Goblin.uasset
+        new file:   Content/Assets/Enemies/Goblin/Materials/M_GoblinDissolve.uasset
+        new file:   Content/Assets/Enemies/Goblin/PA_Goblin.uasset
+        new file:   Content/Assets/Enemies/Goblin/SKM_Goblin.uasset
+        new file:   Content/Assets/Enemies/Goblin/SK_Goblin.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Centered/PA_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Centered/SKM_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Centered/SK_Slingshot.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Centered/Slingshot_Attack.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Centered/Slingshot_Idle.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/M_Slingshot_Green.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/Slingshot_low_M_Slingshot_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/Slingshot_low_M_Slingshot_Normal.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/Slingshot_low_M_Slingshot_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/MI_Slingshot_Red_Dissolve.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/M_Slingshot_Red.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/M_Slingshot_Red_Dissolve.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_Normal.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/M_SlingshotRock.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Goblin/Slingshot/SM_SlingshotRock.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/Materials/MI_Spear_Dissolve.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/Materials/M_Spear.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/Materials/M_SpearDissolve.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/PA_GoblinSpear.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/SKM_Spear.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/SKM_Spear_Skeleton.uasset
+        new file:   Content/Assets/Enemies/Goblin/Spear/SM_Spear.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Death.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Shaman_Attack.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Shaman_HitReact.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Shaman_Idle.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Shaman_ShockLoop.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Shaman_Stun.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Shaman_Summon.uasset
+        new file:   Content/Assets/Enemies/Shaman/Animations/Shaman_Walk.uasset
+        new file:   Content/Assets/Enemies/Shaman/Materials/M_Shaman.uasset
+        new file:   Content/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_Normal.uasset
+        new file:   Content/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Shaman/PA_Shaman.uasset
+        new file:   Content/Assets/Enemies/Shaman/SKM_Shaman.uasset
+        new file:   Content/Assets/Enemies/Shaman/SK_Shaman.uasset
+        new file:   Content/Assets/Enemies/Shaman/SM_Shaman.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/Materials/M_Staff.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/Materials/Staff_low_M_Staff_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/Materials/Staff_low_M_Staff_Normal.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/Materials/Staff_low_M_Staff_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/PA_ShamanStaff.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/SKM_ShamanStaff.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/SM_ShamanStaff.uasset
+        new file:   Content/Assets/Enemies/Shaman/ShamanStaff/SM_Staff_1_25.uasset
+        new file:   Content/Assets/Enemies/Shroom/Animations/Attack.uasset
+        new file:   Content/Assets/Enemies/Shroom/Animations/Bounce.uasset
+        new file:   Content/Assets/Enemies/Shroom/Animations/Idle.uasset
+        new file:   Content/Assets/Enemies/Shroom/Materials/M_Shroom.uasset
+        new file:   Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_BaseColor.uasset
+        new file:   Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_Emissive.uasset
+        new file:   Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_Normal.uasset
+        new file:   Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Enemies/Shroom/Mesh/PA_Shroom.uasset
+        new file:   Content/Assets/Enemies/Shroom/Mesh/SKM_Shroom.uasset
+        new file:   Content/Assets/Enemies/Shroom/Mesh/SK_Shroom.uasset
+        new file:   Content/Assets/Fonts/Amarante/Amarante-Regular.uasset
+        new file:   Content/Assets/Fonts/Amarante/Amarante-Regular_Font.uasset
+        new file:   Content/Assets/Fonts/David_Libre/DavidLibre-Bold.uasset
+        new file:   Content/Assets/Fonts/David_Libre/DavidLibre-Bold_Font.uasset
+        new file:   Content/Assets/Fonts/David_Libre/DavidLibre-Medium.uasset
+        new file:   Content/Assets/Fonts/David_Libre/DavidLibre-Medium_Font.uasset
+        new file:   Content/Assets/Fonts/David_Libre/DavidLibre-Regular.uasset
+        new file:   Content/Assets/Fonts/David_Libre/DavidLibre-Regular_Font.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Black.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Black_Font.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Bold.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Bold_Font.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-ExtraBold.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-ExtraBold_Font.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Light.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Light_Font.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Medium.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Medium_Font.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Regular.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-Regular_Font.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-SemiBold.uasset
+        new file:   Content/Assets/Fonts/Inkut/InknutAntiqua-SemiBold_Font.uasset
+        new file:   Content/Assets/Fonts/Nanum_Brush/NanumBrushScript-Regular.uasset
+        new file:   Content/Assets/Fonts/Nanum_Brush/NanumBrushScript-Regular_Font.uasset
+        new file:   Content/Assets/Fonts/Pirata_One/PirataOne-Regular.uasset
+        new file:   Content/Assets/Fonts/Pirata_One/PirataOne-Regular_Font.uasset
+        new file:   Content/Assets/MagicCircles/M_MagicCircle_1.uasset
+        new file:   Content/Assets/MagicCircles/MagicCircle_1.uasset
+        new file:   Content/Assets/Materials/MI_DissolveEffect.uasset
+        new file:   Content/Assets/Materials/M_DissolveEffect.uasset
+        new file:   Content/Assets/Materials/PP_Highlight.uasset
+        new file:   Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_BaseColor.uasset
+        new file:   Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_Emissive.uasset
+        new file:   Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_Normal.uasset
+        new file:   Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Pickups/HealthCrystal/Materials/MI_HealthCrystal.uasset
+        new file:   Content/Assets/Pickups/HealthCrystal/Materials/M_HealthCrystal.uasset
+        new file:   Content/Assets/Pickups/HealthCrystal/SM_HealthCrystal.uasset
+        new file:   Content/Assets/Pickups/Potions/Bottle/MI_Bottle.uasset
+        new file:   Content/Assets/Pickups/Potions/Bottle/M_Bottle.uasset
+        new file:   Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_BaseColor.uasset
+        new file:   Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Emissive.uasset
+        new file:   Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Normal.uasset
+        new file:   Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Opacity.uasset
+        new file:   Content/Assets/Pickups/Potions/Cork/M_Cork.uasset
+        new file:   Content/Assets/Pickups/Potions/Cork/T_Cork_BaseColor.uasset
+        new file:   Content/Assets/Pickups/Potions/Cork/T_Cork_Normal.uasset
+        new file:   Content/Assets/Pickups/Potions/Cork/T_Cork_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/MI_BlueLiquid.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/MI_RedLiquid.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/M_WhiteLiquid.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_BaseColor.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Emissive.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Normal.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Opacity.uasset
+        new file:   Content/Assets/Pickups/Potions/SM_PotionBottle.uasset
+        new file:   Content/Assets/Sounds/Abilities/ArcaneShards/sfx_ArcaneShards.uasset
+        new file:   Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_03.uasset
+        new file:   Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_04.uasset
+        new file:   Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_05.uasset
+        new file:   Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_06.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/att_InWorld.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltHiss.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltLow.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt_Impact.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Hiss/SFX_Drone_Rocket_Booster.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_Fireball_Hit_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_Fireball_Hit_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_Fireball_Hit_03.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_SmallFireball_Hit_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_SmallFireball_Hit_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_SmallFireball_Hit_03.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_03.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_04.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireNado/SFX_Fire-Nado_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireNado/SFX_Fire-Nado_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/FireNado/SFX_Fire-Nado_03.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/sfx_Shock.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/sfx_ShockLoop.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_03.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_04.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_05.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_06.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Hum_Loop_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Hum_Loop_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Hum_Loop_03.uasset
+        new file:   Content/Assets/Sounds/Abilities/ThunderStrike/SFX_ThunderStrike_01.uasset
+        new file:   Content/Assets/Sounds/Abilities/ThunderStrike/SFX_ThunderStrike_02.uasset
+        new file:   Content/Assets/Sounds/Abilities/ThunderStrike/SFX_ThunderStrike_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Demon/Death/SFX_Demon_Death_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Demon/Death/SFX_Demon_Death_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Demon/Death/SFX_Demon_Death_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Demon/Hurt/SFX_Demon_Hurt_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Demon/Hurt/SFX_Demon_Hurt_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Demon/Hurt/SFX_Demon_Hurt_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_04.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_04.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Swipe/SFX_Swipe_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Swipe/SFX_Swipe_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Ghoul/Swipe/SFX_Swipe_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Death/SFX_Goblin_Death_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Death/SFX_Goblin_Death_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Death/SFX_Goblin_Death_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Hurt/SFX_Goblin_Hurt_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Hurt/SFX_Goblin_Hurt_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Hurt/SFX_Goblin_Hurt_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/RockHit/SFX_RockHit_Body_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/RockHit/SFX_RockHit_Body_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/RockHit/SFX_RockHit_Body_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_01.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_02.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_03.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_04.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_05.uasset
+        new file:   Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_06.uasset
+        new file:   Content/Assets/Sounds/FootSteps/sfx_Footsteps.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_01.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_02.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_03.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_04.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_05.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_06.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_07.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_08.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_09.uasset
+        new file:   Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_10.uasset
+        new file:   Content/Assets/Sounds/LevelUp/SFX_LevelUp.uasset
+        new file:   Content/Assets/Sounds/LevelUp/sfx_Template_single.uasset
+        new file:   Content/Assets/Sounds/Music/Music_MainMenu.uasset
+        new file:   Content/Assets/Sounds/Potions/Consume/SFX_Potion_Consume_01.uasset
+        new file:   Content/Assets/Sounds/Potions/Consume/SFX_Potion_Consume_02.uasset
+        new file:   Content/Assets/Sounds/Potions/Consume/SFX_Potion_Consume_03.uasset
+        new file:   Content/Assets/Sounds/Potions/Consume/sfx_Potion_Consume.uasset
+        new file:   Content/Assets/Sounds/Potions/HitGround/SFX_Potion_HitGround_01.uasset
+        new file:   Content/Assets/Sounds/Potions/HitGround/SFX_Potion_HitGround_02.uasset
+        new file:   Content/Assets/Sounds/Potions/HitGround/SFX_Potion_HitGround_03.uasset
+        new file:   Content/Assets/Sounds/Potions/HitGround/sfx_Potion_HitGround.uasset
+        new file:   Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_01.uasset
+        new file:   Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_02.uasset
+        new file:   Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_03.uasset
+        new file:   Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_04.uasset
+        new file:   Content/Assets/Sounds/Potions/Spawn/sfx_Potion_Spawn.uasset
+        new file:   Content/Assets/Sounds/Slingshot/sfx_Slingshot_Fire.uasset
+        new file:   Content/Assets/Sounds/Slingshot/wav/SFX_BowDraw_FastShot_Full_01.uasset
+        new file:   Content/Assets/Sounds/Slingshot/wav/SFX_BowDraw_FastShot_Full_02.uasset
+        new file:   Content/Assets/Sounds/Slingshot/wav/SFX_BowDraw_FastShot_Full_03.uasset
+        new file:   Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_01.uasset
+        new file:   Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_02.uasset
+        new file:   Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_03.uasset
+        new file:   Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_04.uasset
+        new file:   Content/Assets/Sounds/UI/Cancel/SFX_UI_Cancel_01.uasset
+        new file:   Content/Assets/Sounds/UI/Cancel/SFX_UI_Cancel_02.uasset
+        new file:   Content/Assets/Sounds/UI/Cancel/SFX_UI_Cancel_03.uasset
+        new file:   Content/Assets/Sounds/UI/Hover/SFX_UI_Hover_01.uasset
+        new file:   Content/Assets/Sounds/UI/Hover/SFX_UI_Hover_02.uasset
+        new file:   Content/Assets/Sounds/UI/Hover/SFX_UI_Hover_03.uasset
+        new file:   Content/Assets/Sounds/UI/Unlock_Skills/SFX_UI_Unlock_NewSkill.uasset
+        new file:   Content/Assets/Sounds/UI/Unlock_Skills/SFX_UI_Unlock_SelectSkill.uasset
+        new file:   Content/Assets/Sounds/sfx_Template_multi.uasset
+        new file:   Content/Assets/Sounds/sfx_Template_single.uasset
+        new file:   Content/Assets/Spells/Shards/Material/M_Shards.uasset
+        new file:   Content/Assets/Spells/Shards/Material/Shards_low_DefaultMaterial_BaseColor.uasset
+        new file:   Content/Assets/Spells/Shards/Material/Shards_low_DefaultMaterial_Normal.uasset
+        new file:   Content/Assets/Spells/Shards/Material/Shards_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+        new file:   Content/Assets/Spells/Shards/SM_Shard_debris.uasset
+        new file:   Content/Assets/Spells/Shards/SM_Shard_large.uasset
+        new file:   Content/Assets/Spells/Shards/SM_Shard_small.uasset
+        new file:   Content/Assets/UI/Borders/BorderLarge/Border_Large.uasset
+        new file:   Content/Assets/UI/Borders/BorderLarge/Border_Large_png.uasset
+        new file:   Content/Assets/UI/Borders/BorderLarge_BG/Border_Large_BG.uasset
+        new file:   Content/Assets/UI/Borders/BorderLarge_BG/T_Border_Large_BG_png.uasset
+        new file:   Content/Assets/UI/Borders/Border_1/Border_1.uasset
+        new file:   Content/Assets/UI/Borders/Border_1/Border_1_png.uasset
+        new file:   Content/Assets/UI/Borders/Border_1/lrgBorder_1.uasset
+        new file:   Content/Assets/UI/Button_Red/Button.uasset
+        new file:   Content/Assets/UI/Button_Red/Button_Border.uasset
+        new file:   Content/Assets/UI/Button_Red/Button_Grayed_Out.uasset
+        new file:   Content/Assets/UI/Button_Red/Button_Highlighted.uasset
+        new file:   Content/Assets/UI/Button_Red/Button_Pressed.uasset
+        new file:   Content/Assets/UI/CooldownBar/cooldown_bar.uasset
+        new file:   Content/Assets/UI/Globes/MI_ArcaneSkillBG.uasset
+        new file:   Content/Assets/UI/Globes/MI_EmptyGlobe.uasset
+        new file:   Content/Assets/UI/Globes/MI_FireSkillBG.uasset
+        new file:   Content/Assets/UI/Globes/MI_FlowingUIBG.uasset
+        new file:   Content/Assets/UI/Globes/MI_Flowing_Red.uasset
+        new file:   Content/Assets/UI/Globes/MI_GhostHealthGlobe.uasset
+        new file:   Content/Assets/UI/Globes/MI_GhostManaGlobe.uasset
+        new file:   Content/Assets/UI/Globes/MI_HealthGlobe.uasset
+        new file:   Content/Assets/UI/Globes/MI_LockedBG.uasset
+        new file:   Content/Assets/UI/Globes/MI_ManaGlobe.uasset
+        new file:   Content/Assets/UI/Globes/MI_ShockSkillBG.uasset
+        new file:   Content/Assets/UI/Globes/M_EmptyGlobe.uasset
+        new file:   Content/Assets/UI/Globes/M_FlowingGlobe.uasset
+        new file:   Content/Assets/UI/Globes/M_FlowingUIBG.uasset
+        new file:   Content/Assets/UI/Globes/M_GlobeReversed.uasset
+        new file:   Content/Assets/UI/Globes/TilingNoise05.uasset
+        new file:   Content/Assets/UI/HealthBar/MediumEnemy/Medium_Enemy_Back.uasset
+        new file:   Content/Assets/UI/HealthBar/MediumEnemy/Medium_Enemy_Front.uasset
+        new file:   Content/Assets/UI/HealthBar/MediumEnemy/Medium_Health_Fill.uasset
+        new file:   Content/Assets/UI/HealthBar/Player/HealthBar.uasset
+        new file:   Content/Assets/UI/HealthBar/Player/HealthBarAtt.uasset
+        new file:   Content/Assets/UI/HealthBar/Player/HealthBarBG.uasset
+        new file:   Content/Assets/UI/HealthBar/Player/HealthBarFill.uasset
+        new file:   Content/Assets/UI/HealthMana/AuraRender.uasset
+        new file:   Content/Assets/UI/HealthMana/HealthMana.uasset
+        new file:   Content/Assets/UI/LoadScreen/PlusIcon_clearBG.uasset
+        new file:   Content/Assets/UI/ManaBar/ManaBar.uasset
+        new file:   Content/Assets/UI/ManaBar/ManaBarAtt.uasset
+        new file:   Content/Assets/UI/Overlay/OverlayUI.uasset
+        new file:   Content/Assets/UI/Pickups/T_HealthCrystal.uasset
+        new file:   Content/Assets/UI/Pickups/T_ManaCrystal.uasset
+        new file:   Content/Assets/UI/Pickups/T_Potion_Blue.uasset
+        new file:   Content/Assets/UI/Pickups/T_Potion_Red.uasset
+        new file:   Content/Assets/UI/Rings/GlobeRing/GlobeRing.uasset
+        new file:   Content/Assets/UI/Rings/GlobeRing/GlobeRing2.uasset
+        new file:   Content/Assets/UI/Rings/GlobeRing/RingBlueGlow.uasset
+        new file:   Content/Assets/UI/Rings/SkillRing/SkillRing_1.uasset
+        new file:   Content/Assets/UI/Rings/SkillRing/SkillRing_1a.uasset
+        new file:   Content/Assets/UI/Rings/SkillRing/SkillRing_2.uasset
+        new file:   Content/Assets/UI/Rings/SkillRing/SkillRing_2a.uasset
+        new file:   Content/Assets/UI/Rings/SkillRingGlow/SkillRing_1_Glow.uasset
+        new file:   Content/Assets/UI/Rings/SkillRingGlow/SkillRing_1a_Glow.uasset
+        new file:   Content/Assets/UI/Rings/SkillRingGlow/SkillRing_2_Glow.uasset
+        new file:   Content/Assets/UI/Rings/SkillRingGlow/SkillRing_2a_Glow.uasset
+        new file:   Content/Assets/UI/SpellTree/EquippedSpellsRowOutline.uasset
+        new file:   Content/Assets/UI/SpellTree/Line.uasset
+        new file:   Content/Assets/UI/SpellTree/Line_Yellow.uasset
+        new file:   Content/Assets/UI/SpellTree/OffensiveSelectionBox.uasset
+        new file:   Content/Assets/UI/SpellTree/PassiveSelectionBox.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring1.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring1_active.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring2.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring2_active.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring3.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring3_active.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring4.uasset
+        new file:   Content/Assets/UI/SpellTree/Ring4_active.uasset
+        new file:   Content/Assets/UI/SpellTree/connector.uasset
+        new file:   Content/Assets/UI/SpellTree/connector_active.uasset
+        new file:   Content/Assets/UI/Spells/ArcaneBlast.uasset
+        new file:   Content/Assets/UI/Spells/ArcaneShards.uasset
+        new file:   Content/Assets/UI/Spells/ArcaneShards2.uasset
+        new file:   Content/Assets/UI/Spells/ArcaneStorm.uasset
+        new file:   Content/Assets/UI/Spells/BallLightning.uasset
+        new file:   Content/Assets/UI/Spells/FireBlast.uasset
+        new file:   Content/Assets/UI/Spells/FireBolt.uasset
+        new file:   Content/Assets/UI/Spells/FireBolt_white.uasset
+        new file:   Content/Assets/UI/Spells/FireNado.uasset
+        new file:   Content/Assets/UI/Spells/Halo.uasset
+        new file:   Content/Assets/UI/Spells/LifeSiphon.uasset
+        new file:   Content/Assets/UI/Spells/LightningStorm.uasset
+        new file:   Content/Assets/UI/Spells/Locked.uasset
+        new file:   Content/Assets/UI/Spells/Locked_sm.uasset
+        new file:   Content/Assets/UI/Spells/Locked_sm_white.uasset
+        new file:   Content/Assets/UI/Spells/SelectionCircle.uasset
+        new file:   Content/Assets/UI/Spells/Shock.uasset
+        new file:   Content/Assets/UI/Wide_Button_Red/WideButton.uasset
+        new file:   Content/Assets/UI/Wide_Button_Red/WideButton_GrayedOut.uasset
+        new file:   Content/Assets/UI/Wide_Button_Red/WideButton_Highlighted.uasset
+        new file:   Content/Assets/UI/Wide_Button_Red/WideButton_Pressed.uasset
+        new file:   Content/Assets/UI/Wide_Button_Red/WideButton_Pressed_2.uasset
+        new file:   Content/Assets/UI/XPBar/XP_Back.uasset
+        new file:   Content/Assets/UI/XPBar/XP_Front.uasset
+        new file:   Content/Assets/UI/XPBar/XP_Middle.uasset
+        new file:   Content/Assets/UI/XPBar/xp_bar.uasset
+        new file:   Content/Assets/UI/XPBar/xp_frame.uasset
+        new file:   Content/Maps/StartupMap.umap
+        new file:   Platforms/HoloLens/Config/HoloLensEngine.ini
+
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (master)
+$ git commit -m "Initial Project Files"
+[master (root-commit) 2732650] Initial Project Files
+ 772 files changed, 229 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Aura.uproject
+ create mode 100644 Config/DefaultEditor.ini
+ create mode 100644 Config/DefaultEngine.ini
+ create mode 100644 Config/DefaultGame.ini
+ create mode 100644 Config/DefaultInput.ini
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Abilities/Cast_ArcaneShards.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Abilities/Cast_ArcaneShards_Short.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Abilities/Cast_FireBolt.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Abilities/Cast_Shock.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Abilities/Cast_Shock_Loop.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Abilities/HitReact.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Abilities/Stun.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/AuraPose.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Idle.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/IdleWalkRun.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/InAir.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Run.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Animations/Walk.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_ArmGuard_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_ArmGuard_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_ArmGuard_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Belt_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Belt_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Belt_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Body_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Body_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Body_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Eyes_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Eyes_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Eyes_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Hair_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Hair_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Hair_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Tunic_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Tunic_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/Character_low_Tunic_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/M_ArmGuard.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/M_Belt.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/M_Body.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/M_Eyes.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/M_Hair.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Materials/M_Tunic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/PA_Aura.uasset
+ create mode 100644 Content/Assets/Characters/Aura/SKM_Aura.uasset
+ create mode 100644 Content/Assets/Characters/Aura/SK_Aura.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/M_Floaty.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/M_Staff.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_Emissive.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Floaty_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_BaseColor.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_Emissive.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_Normal.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/Materials/Staff_low_Top_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/PA_Staff.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/SKM_Staff.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/SK_Staff.uasset
+ create mode 100644 Content/Assets/Characters/Aura/Staff/SM_Staff.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Emissive.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/Material/MI_Beacon.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/Material/M_Beacon.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/SM_Beacon.uasset
+ create mode 100644 Content/Assets/Dungeon/Beacon/SM_Pillar.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/Checkpoint_low.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Emissive.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/Material/MI_Checkpoint.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/Material/M_Checkpoint.uasset
+ create mode 100644 Content/Assets/Dungeon/Checkpoint/SM_Checkpoint.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/CornerSmall/M_CornerSmall.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_Base.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_Norm.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/M_Stairs_ColumnsRims.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Pillars.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Rail.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Steps.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/columns_rims_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/columns_rims_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/columns_rims_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/pillars_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/pillars_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/pillars_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/rail_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/rail_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/rail_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/steps_wall_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/steps_wall_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Stairs/steps_wall_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1/M_Tileset1.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/M_Tilese1x1_2.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/M_Tileset1x1_1.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset2/M_Tileset2.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset3/M_Tileset3.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Balusters.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Base.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Rail.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Step.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/M_TilesetCorner_Wall.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Balusters_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Balusters_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Balusters_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Base_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Base_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Base_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Rail_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Rail_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Rail_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Step_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Step_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Step_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Wall_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Wall_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner/T_Corner_Wall_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Balusters.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Base.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Rail.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Step.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Wall.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_base_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_base_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_base_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Balusters.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Base.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Rail.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Step.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Wall.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_balusters_dark.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_base_dark.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_rail_dark.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_step_dark.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/M_TilesetCorner_wall_dark.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_base_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_base_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_base_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_step_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_step_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_step_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_wall_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_wall_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_Corner_wall_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Balusters_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Balusters_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Balusters_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Rail_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Rail_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetCorner_splotches/Tileset_Corner_low_M_Rail_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_balusters.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_base.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_rail.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_step.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_wall.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_BaseColor.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_Normal.uasset
+ create mode 100644 Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block2x2x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block2x3x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block3x3x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block4x3x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block4x4x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block_1x1x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block_1x1x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block_1x1x3.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Block_1x1x4.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_CornerInner_norail.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_CornerSmall.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_CornerSmall_nostep.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_CornerSmall_nostep_norail.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_CornerSmall_outer.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_CornerSmall_rail.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner_Inner.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner_Inner_nobase.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner_Outer_norail.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner_nobase.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner_railing.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner_wall_short.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Corner_wall_tall.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Edge_2x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Edge_2x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_FloorCorner.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Stairs.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Stairs_L.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Stairs_R.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Stairs_nobottom.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Stairs_nobottom_L.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Stairs_nobottom_R.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile1x1_A.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile1x1_B.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_1x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_1x3.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_1x3a.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_1x4.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_1x4_a.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_1x6.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_2x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_2x2x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_2x4.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_3x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_3x2x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_3x3_A.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_3x3_B.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_3x3x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_3x3x3.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_4x4.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_4x4_a.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_5x5.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_6x3.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_6x6.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Tile_6x9.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_TilesetEdge.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_TilesetEdge_nobase.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_TilesetEdge_nobase_2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_TilesetEdge_nobase_4.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Wall_2x1.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Wall_2x2.uasset
+ create mode 100644 Content/Assets/Dungeon/SM_Wall_4x2.uasset
+ create mode 100644 Content/Assets/Effects/ArcaneShards/NS_ArcaneShards.uasset
+ create mode 100644 Content/Assets/Effects/Combat/NS_BloodImpact.uasset
+ create mode 100644 Content/Assets/Effects/Combat/NS_CombatImpact.uasset
+ create mode 100644 Content/Assets/Effects/Combat/NS_GroundSummon.uasset
+ create mode 100644 Content/Assets/Effects/Combat/NS_SlingshotImpact.uasset
+ create mode 100644 Content/Assets/Effects/Combat/Trail/Materials/MI_Refraction.uasset
+ create mode 100644 Content/Assets/Effects/Combat/Trail/Materials/M_Refraction.uasset
+ create mode 100644 Content/Assets/Effects/Combat/Trail/NE_Refract.uasset
+ create mode 100644 Content/Assets/Effects/Combat/Trail/NS_CombatTrail.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/FX_Cursor.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/M_Cursor.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/SM_CursorMesh.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/T_Arrow.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/T_Crystal.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/T_Crystal2.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/T_Crystal3.uasset
+ create mode 100644 Content/Assets/Effects/Cursor/T_Crystal4.uasset
+ create mode 100644 Content/Assets/Effects/Fire/MI_Fire.uasset
+ create mode 100644 Content/Assets/Effects/Fire/M_Distortion.uasset
+ create mode 100644 Content/Assets/Effects/Fire/M_Distortion2.uasset
+ create mode 100644 Content/Assets/Effects/Fire/M_Fire.uasset
+ create mode 100644 Content/Assets/Effects/Fire/NS_Fire.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/Gradient_Radial_trans.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/LowResBlurredNoise.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/M_Swirl.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/M_radial_ramp.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/M_smoke_subUV.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/NS_Tornado.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/OffsetNoiseDistanceFields_ForNormals.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/SM_Tornado.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/T_Smoke_SubUV.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/T_Smoke_SubUV_2.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/T_Smoke_Tiled_D.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/T_Smoke_Tiled_D_2.uasset
+ create mode 100644 Content/Assets/Effects/Firenado/Tornado.uasset
+ create mode 100644 Content/Assets/Effects/LevelUp/Materials/M_PanningNoise.uasset
+ create mode 100644 Content/Assets/Effects/LevelUp/Materials/OffsetNoiseDistanceFields_ForNormals.uasset
+ create mode 100644 Content/Assets/Effects/LevelUp/NS_LevelUp.uasset
+ create mode 100644 Content/Assets/Effects/ManaDrain/M_ManaDrain.uasset
+ create mode 100644 Content/Assets/Effects/ManaDrain/NS_ManaDrain.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/Materials/M_Fire.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/Materials/M_Fireball.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/Materials/Textures/Noise_blur_1.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/Materials/Textures/Noise_cell_1.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_1.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_2.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_3.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_4.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireBolt/NS_Fireball.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireExplosion/M_ExplosionSphere.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireExplosion/M_ExplosionSphere1.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion.uasset
+ create mode 100644 Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion1.uasset
+ create mode 100644 Content/Assets/Effects/Shared/M_Crescent.uasset
+ create mode 100644 Content/Assets/Effects/Shared/M_DefaultSprite.uasset
+ create mode 100644 Content/Assets/Effects/Shared/M_DefaultSprite_trans.uasset
+ create mode 100644 Content/Assets/Effects/Shared/M_Ring.uasset
+ create mode 100644 Content/Assets/Effects/Shared/M_Spark.uasset
+ create mode 100644 Content/Assets/Effects/Shared/Sphere.uasset
+ create mode 100644 Content/Assets/Effects/Shared/noise_blur_min.uasset
+ create mode 100644 Content/Assets/Effects/Shared/sparkle_01.uasset
+ create mode 100644 Content/Assets/Effects/Shared/water_n.uasset
+ create mode 100644 Content/Assets/Effects/Shock/Material/DefaultSpriteMaterial_Trans.uasset
+ create mode 100644 Content/Assets/Effects/Shock/Material/M_ElectricRibbon_Add.uasset
+ create mode 100644 Content/Assets/Effects/Shock/Material/M_ElectricRibbon_Trans.uasset
+ create mode 100644 Content/Assets/Effects/Shock/Material/T_Noise01.uasset
+ create mode 100644 Content/Assets/Effects/Shock/NS_ElectricBeam.uasset
+ create mode 100644 Content/Assets/Effects/Shock/NS_Sparks.uasset
+ create mode 100644 Content/Assets/Effects/Soul/M_SoulGlow.uasset
+ create mode 100644 Content/Assets/Effects/Soul/NS_Embers.uasset
+ create mode 100644 Content/Assets/Effects/Soul/NS_Glow.uasset
+ create mode 100644 Content/Assets/Effects/Soul/NS_Soul.uasset
+ create mode 100644 Content/Assets/Effects/Soul/NS_SoulPickup.uasset
+ create mode 100644 Content/Assets/Effects/Stun/M_Star.uasset
+ create mode 100644 Content/Assets/Effects/Stun/NS_Halo.uasset
+ create mode 100644 Content/Assets/Effects/Stun/NS_LifeSiphon.uasset
+ create mode 100644 Content/Assets/Effects/Stun/NS_ManaSiphon.uasset
+ create mode 100644 Content/Assets/Effects/Stun/NS_Stars.uasset
+ create mode 100644 Content/Assets/Effects/Stun/star.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/BS_Demon_IdleRun.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/DemonShockLoop.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Attack_L.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Attack_R.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_HitReact.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Red_Idle.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Red_Run.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Red_Tailspin.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Stun.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Tailspin_left.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Animations/Demon_Throw.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Dark/MI_DemonDark_Dissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Dark/M_DemonDark.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Dark/M_DemonDark_Dissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Red/MI_Demon_Red_Dissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Red/M_DemonRed_Dissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/Materials_Red/M_Demon_Red.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/PA_Demon.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/SKM_Demon.uasset
+ create mode 100644 Content/Assets/Enemies/Demon/SK_Demon.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/Attack_L.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/Attack_R.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/Death.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/HitReact.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/Idle.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/ShockLoop.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/Stun.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Animations/Walk.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Materials/Ghoul_low_M_Ghoul_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Materials/Ghoul_low_M_Ghoul_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Materials/Ghoul_low_M_Ghoul_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/Materials/M_Ghoul.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/PA_Ghoul.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset
+ create mode 100644 Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Slingshot/Attack_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Slingshot/BS_Goblin_Slingshot_IdleRun.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Slingshot/Death_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Slingshot/HitReact_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Slingshot/Idle_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Slingshot/Slingshot_Stun_Loop.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/Attack_Spear.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/BS_GoblinSpear_IdleRun.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/Death_Spear.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/HitReact_Shock_Loop_Spear.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/HitReact_Spear.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/Idle_Spear2.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/Run_Spear2.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/Run_Spear_fix.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/ShockLoop.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Animations/Spear/Stun_Loop.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Materials/MI_GoblinDissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Materials/M_Goblin.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Materials/M_GoblinDissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/PA_Goblin.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/SKM_Goblin.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/SK_Goblin.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Centered/PA_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Centered/SKM_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Centered/SK_Slingshot.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Centered/Slingshot_Attack.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Centered/Slingshot_Idle.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/M_Slingshot_Green.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/Slingshot_low_M_Slingshot_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/Slingshot_low_M_Slingshot_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Green/Slingshot_low_M_Slingshot_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/MI_Slingshot_Red_Dissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/M_Slingshot_Red.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/M_Slingshot_Red_Dissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/M_SlingshotRock.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Slingshot/SM_SlingshotRock.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/Materials/MI_Spear_Dissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/Materials/M_Spear.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/Materials/M_SpearDissolve.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/PA_GoblinSpear.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/SKM_Spear.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/SKM_Spear_Skeleton.uasset
+ create mode 100644 Content/Assets/Enemies/Goblin/Spear/SM_Spear.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Death.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Shaman_Attack.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Shaman_HitReact.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Shaman_Idle.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Shaman_ShockLoop.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Shaman_Stun.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Shaman_Summon.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Animations/Shaman_Walk.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Materials/M_Shaman.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/PA_Shaman.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/SKM_Shaman.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/SK_Shaman.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/SM_Shaman.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/Materials/M_Staff.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/Materials/Staff_low_M_Staff_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/Materials/Staff_low_M_Staff_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/Materials/Staff_low_M_Staff_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/PA_ShamanStaff.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/SKM_ShamanStaff.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/SM_ShamanStaff.uasset
+ create mode 100644 Content/Assets/Enemies/Shaman/ShamanStaff/SM_Staff_1_25.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Animations/Attack.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Animations/Bounce.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Animations/Idle.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Materials/M_Shroom.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_BaseColor.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_Emissive.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_Normal.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Materials/Shroom_low_M_Shroom_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Mesh/PA_Shroom.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Mesh/SKM_Shroom.uasset
+ create mode 100644 Content/Assets/Enemies/Shroom/Mesh/SK_Shroom.uasset
+ create mode 100644 Content/Assets/Fonts/Amarante/Amarante-Regular.uasset
+ create mode 100644 Content/Assets/Fonts/Amarante/Amarante-Regular_Font.uasset
+ create mode 100644 Content/Assets/Fonts/David_Libre/DavidLibre-Bold.uasset
+ create mode 100644 Content/Assets/Fonts/David_Libre/DavidLibre-Bold_Font.uasset
+ create mode 100644 Content/Assets/Fonts/David_Libre/DavidLibre-Medium.uasset
+ create mode 100644 Content/Assets/Fonts/David_Libre/DavidLibre-Medium_Font.uasset
+ create mode 100644 Content/Assets/Fonts/David_Libre/DavidLibre-Regular.uasset
+ create mode 100644 Content/Assets/Fonts/David_Libre/DavidLibre-Regular_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Black.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Black_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Bold.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Bold_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-ExtraBold.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-ExtraBold_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Light.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Light_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Medium.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Medium_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Regular.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-Regular_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-SemiBold.uasset
+ create mode 100644 Content/Assets/Fonts/Inkut/InknutAntiqua-SemiBold_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Nanum_Brush/NanumBrushScript-Regular.uasset
+ create mode 100644 Content/Assets/Fonts/Nanum_Brush/NanumBrushScript-Regular_Font.uasset
+ create mode 100644 Content/Assets/Fonts/Pirata_One/PirataOne-Regular.uasset
+ create mode 100644 Content/Assets/Fonts/Pirata_One/PirataOne-Regular_Font.uasset
+ create mode 100644 Content/Assets/MagicCircles/M_MagicCircle_1.uasset
+ create mode 100644 Content/Assets/MagicCircles/MagicCircle_1.uasset
+ create mode 100644 Content/Assets/Materials/MI_DissolveEffect.uasset
+ create mode 100644 Content/Assets/Materials/M_DissolveEffect.uasset
+ create mode 100644 Content/Assets/Materials/PP_Highlight.uasset
+ create mode 100644 Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_BaseColor.uasset
+ create mode 100644 Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_Emissive.uasset
+ create mode 100644 Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_Normal.uasset
+ create mode 100644 Content/Assets/Pickups/HealthCrystal/Materials/HealthCrystal_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Pickups/HealthCrystal/Materials/MI_HealthCrystal.uasset
+ create mode 100644 Content/Assets/Pickups/HealthCrystal/Materials/M_HealthCrystal.uasset
+ create mode 100644 Content/Assets/Pickups/HealthCrystal/SM_HealthCrystal.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Bottle/MI_Bottle.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Bottle/M_Bottle.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_BaseColor.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Emissive.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Normal.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Bottle/Potion_low_Bottle_Opacity.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Cork/M_Cork.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Cork/T_Cork_BaseColor.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Cork/T_Cork_Normal.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Cork/T_Cork_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/MI_BlueLiquid.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/MI_RedLiquid.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/M_WhiteLiquid.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_BaseColor.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Emissive.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Normal.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/Liquid/T_WhiteLiquid_Opacity.uasset
+ create mode 100644 Content/Assets/Pickups/Potions/SM_PotionBottle.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ArcaneShards/sfx_ArcaneShards.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_03.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_04.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_05.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ArcaneShards/wav/SFX_RockSpikes_06.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/att_InWorld.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltHiss.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltLow.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt_Impact.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Hiss/SFX_Drone_Rocket_Booster.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_Fireball_Hit_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_Fireball_Hit_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_Fireball_Hit_03.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_SmallFireball_Hit_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_SmallFireball_Hit_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Impact/SFX_SmallFireball_Hit_03.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_03.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireBolt/wav/Shoot/SFX_FireBall_Shoot_LowLevel_04.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireNado/SFX_Fire-Nado_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireNado/SFX_Fire-Nado_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/FireNado/SFX_Fire-Nado_03.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/sfx_Shock.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/sfx_ShockLoop.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_03.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_04.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_05.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Burst_06.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Hum_Loop_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Hum_Loop_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/Shock/wav/SFX_Electric_Hum_Loop_03.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ThunderStrike/SFX_ThunderStrike_01.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ThunderStrike/SFX_ThunderStrike_02.uasset
+ create mode 100644 Content/Assets/Sounds/Abilities/ThunderStrike/SFX_ThunderStrike_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Demon/Death/SFX_Demon_Death_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Demon/Death/SFX_Demon_Death_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Demon/Death/SFX_Demon_Death_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Demon/Hurt/SFX_Demon_Hurt_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Demon/Hurt/SFX_Demon_Hurt_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Demon/Hurt/SFX_Demon_Hurt_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Attack/SFX_Enemies_Ghoul_Attack_ClawSwipe_04.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Growl/SFX_Enemies_Ghoul_Attack_Vocal_04.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Swipe/SFX_Swipe_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Swipe/SFX_Swipe_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Ghoul/Swipe/SFX_Swipe_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Death/SFX_Goblin_Death_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Death/SFX_Goblin_Death_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Death/SFX_Goblin_Death_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Hurt/SFX_Goblin_Hurt_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Hurt/SFX_Goblin_Hurt_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Hurt/SFX_Goblin_Hurt_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/RockHit/SFX_RockHit_Body_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/RockHit/SFX_RockHit_Body_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/RockHit/SFX_RockHit_Body_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_01.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_02.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_03.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_04.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_05.uasset
+ create mode 100644 Content/Assets/Sounds/Enemies/Goblin/Swoosh/SFX_Sword_Swoosh_06.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/sfx_Footsteps.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_01.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_02.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_03.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_04.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_05.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_06.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_07.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_08.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_09.uasset
+ create mode 100644 Content/Assets/Sounds/FootSteps/wav/SFX_Footsteps_Stone_10.uasset
+ create mode 100644 Content/Assets/Sounds/LevelUp/SFX_LevelUp.uasset
+ create mode 100644 Content/Assets/Sounds/LevelUp/sfx_Template_single.uasset
+ create mode 100644 Content/Assets/Sounds/Music/Music_MainMenu.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Consume/SFX_Potion_Consume_01.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Consume/SFX_Potion_Consume_02.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Consume/SFX_Potion_Consume_03.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Consume/sfx_Potion_Consume.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/HitGround/SFX_Potion_HitGround_01.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/HitGround/SFX_Potion_HitGround_02.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/HitGround/SFX_Potion_HitGround_03.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/HitGround/sfx_Potion_HitGround.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_01.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_02.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_03.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Spawn/SFX_Potion_PopsOut_04.uasset
+ create mode 100644 Content/Assets/Sounds/Potions/Spawn/sfx_Potion_Spawn.uasset
+ create mode 100644 Content/Assets/Sounds/Slingshot/sfx_Slingshot_Fire.uasset
+ create mode 100644 Content/Assets/Sounds/Slingshot/wav/SFX_BowDraw_FastShot_Full_01.uasset
+ create mode 100644 Content/Assets/Sounds/Slingshot/wav/SFX_BowDraw_FastShot_Full_02.uasset
+ create mode 100644 Content/Assets/Sounds/Slingshot/wav/SFX_BowDraw_FastShot_Full_03.uasset
+ create mode 100644 Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_01.uasset
+ create mode 100644 Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_02.uasset
+ create mode 100644 Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_03.uasset
+ create mode 100644 Content/Assets/Sounds/UI/ButtonClick/SFX_UI_ButtonClick_04.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Cancel/SFX_UI_Cancel_01.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Cancel/SFX_UI_Cancel_02.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Cancel/SFX_UI_Cancel_03.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Hover/SFX_UI_Hover_01.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Hover/SFX_UI_Hover_02.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Hover/SFX_UI_Hover_03.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Unlock_Skills/SFX_UI_Unlock_NewSkill.uasset
+ create mode 100644 Content/Assets/Sounds/UI/Unlock_Skills/SFX_UI_Unlock_SelectSkill.uasset
+ create mode 100644 Content/Assets/Sounds/sfx_Template_multi.uasset
+ create mode 100644 Content/Assets/Sounds/sfx_Template_single.uasset
+ create mode 100644 Content/Assets/Spells/Shards/Material/M_Shards.uasset
+ create mode 100644 Content/Assets/Spells/Shards/Material/Shards_low_DefaultMaterial_BaseColor.uasset
+ create mode 100644 Content/Assets/Spells/Shards/Material/Shards_low_DefaultMaterial_Normal.uasset
+ create mode 100644 Content/Assets/Spells/Shards/Material/Shards_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset
+ create mode 100644 Content/Assets/Spells/Shards/SM_Shard_debris.uasset
+ create mode 100644 Content/Assets/Spells/Shards/SM_Shard_large.uasset
+ create mode 100644 Content/Assets/Spells/Shards/SM_Shard_small.uasset
+ create mode 100644 Content/Assets/UI/Borders/BorderLarge/Border_Large.uasset
+ create mode 100644 Content/Assets/UI/Borders/BorderLarge/Border_Large_png.uasset
+ create mode 100644 Content/Assets/UI/Borders/BorderLarge_BG/Border_Large_BG.uasset
+ create mode 100644 Content/Assets/UI/Borders/BorderLarge_BG/T_Border_Large_BG_png.uasset
+ create mode 100644 Content/Assets/UI/Borders/Border_1/Border_1.uasset
+ create mode 100644 Content/Assets/UI/Borders/Border_1/Border_1_png.uasset
+ create mode 100644 Content/Assets/UI/Borders/Border_1/lrgBorder_1.uasset
+ create mode 100644 Content/Assets/UI/Button_Red/Button.uasset
+ create mode 100644 Content/Assets/UI/Button_Red/Button_Border.uasset
+ create mode 100644 Content/Assets/UI/Button_Red/Button_Grayed_Out.uasset
+ create mode 100644 Content/Assets/UI/Button_Red/Button_Highlighted.uasset
+ create mode 100644 Content/Assets/UI/Button_Red/Button_Pressed.uasset
+ create mode 100644 Content/Assets/UI/CooldownBar/cooldown_bar.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_ArcaneSkillBG.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_EmptyGlobe.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_FireSkillBG.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_FlowingUIBG.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_Flowing_Red.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_GhostHealthGlobe.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_GhostManaGlobe.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_HealthGlobe.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_LockedBG.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_ManaGlobe.uasset
+ create mode 100644 Content/Assets/UI/Globes/MI_ShockSkillBG.uasset
+ create mode 100644 Content/Assets/UI/Globes/M_EmptyGlobe.uasset
+ create mode 100644 Content/Assets/UI/Globes/M_FlowingGlobe.uasset
+ create mode 100644 Content/Assets/UI/Globes/M_FlowingUIBG.uasset
+ create mode 100644 Content/Assets/UI/Globes/M_GlobeReversed.uasset
+ create mode 100644 Content/Assets/UI/Globes/TilingNoise05.uasset
+ create mode 100644 Content/Assets/UI/HealthBar/MediumEnemy/Medium_Enemy_Back.uasset
+ create mode 100644 Content/Assets/UI/HealthBar/MediumEnemy/Medium_Enemy_Front.uasset
+ create mode 100644 Content/Assets/UI/HealthBar/MediumEnemy/Medium_Health_Fill.uasset
+ create mode 100644 Content/Assets/UI/HealthBar/Player/HealthBar.uasset
+ create mode 100644 Content/Assets/UI/HealthBar/Player/HealthBarAtt.uasset
+ create mode 100644 Content/Assets/UI/HealthBar/Player/HealthBarBG.uasset
+ create mode 100644 Content/Assets/UI/HealthBar/Player/HealthBarFill.uasset
+ create mode 100644 Content/Assets/UI/HealthMana/AuraRender.uasset
+ create mode 100644 Content/Assets/UI/HealthMana/HealthMana.uasset
+ create mode 100644 Content/Assets/UI/LoadScreen/PlusIcon_clearBG.uasset
+ create mode 100644 Content/Assets/UI/ManaBar/ManaBar.uasset
+ create mode 100644 Content/Assets/UI/ManaBar/ManaBarAtt.uasset
+ create mode 100644 Content/Assets/UI/Overlay/OverlayUI.uasset
+ create mode 100644 Content/Assets/UI/Pickups/T_HealthCrystal.uasset
+ create mode 100644 Content/Assets/UI/Pickups/T_ManaCrystal.uasset
+ create mode 100644 Content/Assets/UI/Pickups/T_Potion_Blue.uasset
+ create mode 100644 Content/Assets/UI/Pickups/T_Potion_Red.uasset
+ create mode 100644 Content/Assets/UI/Rings/GlobeRing/GlobeRing.uasset
+ create mode 100644 Content/Assets/UI/Rings/GlobeRing/GlobeRing2.uasset
+ create mode 100644 Content/Assets/UI/Rings/GlobeRing/RingBlueGlow.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRing/SkillRing_1.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRing/SkillRing_1a.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRing/SkillRing_2.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRing/SkillRing_2a.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRingGlow/SkillRing_1_Glow.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRingGlow/SkillRing_1a_Glow.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRingGlow/SkillRing_2_Glow.uasset
+ create mode 100644 Content/Assets/UI/Rings/SkillRingGlow/SkillRing_2a_Glow.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/EquippedSpellsRowOutline.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Line.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Line_Yellow.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/OffensiveSelectionBox.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/PassiveSelectionBox.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring1.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring1_active.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring2.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring2_active.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring3.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring3_active.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring4.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/Ring4_active.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/connector.uasset
+ create mode 100644 Content/Assets/UI/SpellTree/connector_active.uasset
+ create mode 100644 Content/Assets/UI/Spells/ArcaneBlast.uasset
+ create mode 100644 Content/Assets/UI/Spells/ArcaneShards.uasset
+ create mode 100644 Content/Assets/UI/Spells/ArcaneShards2.uasset
+ create mode 100644 Content/Assets/UI/Spells/ArcaneStorm.uasset
+ create mode 100644 Content/Assets/UI/Spells/BallLightning.uasset
+ create mode 100644 Content/Assets/UI/Spells/FireBlast.uasset
+ create mode 100644 Content/Assets/UI/Spells/FireBolt.uasset
+ create mode 100644 Content/Assets/UI/Spells/FireBolt_white.uasset
+ create mode 100644 Content/Assets/UI/Spells/FireNado.uasset
+ create mode 100644 Content/Assets/UI/Spells/Halo.uasset
+ create mode 100644 Content/Assets/UI/Spells/LifeSiphon.uasset
+ create mode 100644 Content/Assets/UI/Spells/LightningStorm.uasset
+ create mode 100644 Content/Assets/UI/Spells/Locked.uasset
+ create mode 100644 Content/Assets/UI/Spells/Locked_sm.uasset
+ create mode 100644 Content/Assets/UI/Spells/Locked_sm_white.uasset
+ create mode 100644 Content/Assets/UI/Spells/SelectionCircle.uasset
+ create mode 100644 Content/Assets/UI/Spells/Shock.uasset
+ create mode 100644 Content/Assets/UI/Wide_Button_Red/WideButton.uasset
+ create mode 100644 Content/Assets/UI/Wide_Button_Red/WideButton_GrayedOut.uasset
+ create mode 100644 Content/Assets/UI/Wide_Button_Red/WideButton_Highlighted.uasset
+ create mode 100644 Content/Assets/UI/Wide_Button_Red/WideButton_Pressed.uasset
+ create mode 100644 Content/Assets/UI/Wide_Button_Red/WideButton_Pressed_2.uasset
+ create mode 100644 Content/Assets/UI/XPBar/XP_Back.uasset
+ create mode 100644 Content/Assets/UI/XPBar/XP_Front.uasset
+ create mode 100644 Content/Assets/UI/XPBar/XP_Middle.uasset
+ create mode 100644 Content/Assets/UI/XPBar/xp_bar.uasset
+ create mode 100644 Content/Assets/UI/XPBar/xp_frame.uasset
+ create mode 100644 Content/Maps/StartupMap.umap
+ create mode 100644 Platforms/HoloLens/Config/HoloLensEngine.ini
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (master)
+$ git log
+commit 2732650bed91f67a1df5cb10bfac8e442235bcf2 (HEAD -> master)
+Author: chiblue <s601han@comcast.net>
+Date:   Mon Jan 1 10:33:32 2024 -0500
+
+    Initial Project Files
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (master)
+$ git branch -M main
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ ^[[200~git remote add origin https://github.com/Chiblue3D/GameplayAbilitySystem_Aura.git
+bash: $'\E[200~git': command not found
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$  ^[[200~^C
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git remote add origin https://github.com/Chiblue3D/GameplayAbilitySystem_Aura.git
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git remote
+origin
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git remote -vv
+Enumerating objects: 942, done.
+Counting objects: 100% (942/942), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (932/932), done.
+Writing objects: 100% (942/942), 707.06 MiB | 538.00 KiB/s, done.
+Total 942 (delta 133), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (133/133), done.
+To https://github.com/Chiblue3D/GameplayAbilitySystem_Aura.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git add .
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .vsconfig
+        modified:   Aura.uproject
+        new file:   Source/Aura.Target.cs
+        new file:   Source/Aura/Aura.Build.cs
+        new file:   Source/Aura/Aura.cpp
+        new file:   Source/Aura/Aura.h
+        new file:   Source/Aura/Private/AuraCharacterBase.cpp
+        new file:   Source/Aura/Public/AuraCharacterBase.h
+        new file:   Source/AuraEditor.Target.cs
+
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git commit -m "Base Character Class"
+[main 30901da] Base Character Class
+ 9 files changed, 150 insertions(+)
+ create mode 100644 .vsconfig
+ create mode 100644 Source/Aura.Target.cs
+ create mode 100644 Source/Aura/Aura.Build.cs
+ create mode 100644 Source/Aura/Aura.cpp
+ create mode 100644 Source/Aura/Aura.h
+ create mode 100644 Source/Aura/Private/AuraCharacterBase.cpp
+ create mode 100644 Source/Aura/Public/AuraCharacterBase.h
+ create mode 100644 Source/AuraEditor.Target.cs
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git push origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (15/15), 2.62 KiB | 2.62 MiB/s, done.
+Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/Chiblue3D/GameplayAbilitySystem_Aura.git
+   2732650..30901da  main -> main
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git commit -m "Player Character Classes"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    Source/Aura/Private/AuraCharacterBase.cpp
+        deleted:    Source/Aura/Public/AuraCharacterBase.h
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Source/Aura/Private/Character/
+        Source/Aura/Public/Character/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$ git push origin main
+Everything up-to-date
+
+s601h@SHDesktop MINGW64 /d/Udemy/Aura (main)
+$
